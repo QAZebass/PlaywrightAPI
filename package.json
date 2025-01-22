@@ -1,0 +1,13 @@
+{
+  "name": "PlaywrightAPI",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:QAZebass/PlaywrightAPI.git",
+  "author": "QAZebass <ze.basszender@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.7"
+  },
+  "scripts": {}
+}
