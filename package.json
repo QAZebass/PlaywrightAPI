@@ -6,8 +6,10 @@
   "author": "QAZebass <ze.basszender@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@faker-js/faker": "^9.4.0",
     "@playwright/test": "^1.49.1",
-    "@types/node": "^22.10.7"
+    "@types/node": "^22.10.7",
+    "ajv": "^8.17.1"
   },
   "scripts": {
     "test": "npx playwright test"
