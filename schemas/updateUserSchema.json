@@ -1,0 +1,39 @@
+{
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "name",
+        "job",
+        "updatedAt"
+    ],
+    "properties": {
+        "name": {
+            "type": "string",
+            "default": "",
+            "title": "The name Schema",
+            "examples": [
+                "Ryu Sakazaki"
+            ]
+        },
+        "job": {
+            "type": "string",
+            "default": "",
+            "title": "The job Schema",
+            "examples": [
+                "Kyokugenryu Karate martial artist"
+            ]
+        },
+        "updatedAt": {
+            "type": "string",
+            "format": "date-time",
+            "default": "",
+            "title": "The updatedAt Schema",
+            "examples": [
+                "2025-01-27T18:24:36.907Z"
+            ]
+        }
+    },
+    "additionalProperties": true
+}
